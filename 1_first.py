@@ -6,6 +6,7 @@ from PyQt6.QtWidgets import QMainWindow
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import pyqtSignal
 
+
 lst_alita_1 = []
 lst_alita_3 = []
 lst_alita_2 = []
@@ -31,6 +32,7 @@ avatar_1 = []
 avatar_2 = []
 avatar_3 = []
 f = 0
+
 
 class Home(QMainWindow):
     def __init__(self):

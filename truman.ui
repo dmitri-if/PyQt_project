@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>881</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>0</y>
+      <width>541</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>«Шоу Трумана» (1998) — драма и комедия о Трумане Бёрбанке, который живёт обычной
+жизнью, не подозревая, что всё происходящее вокруг него является круглосуточным
+реалити-шоу с нанятыми актёрами. 1
+
+Родной город Трумана Сихэвен — это декорация, близкие люди,
+коллеги и прохожие — статисты. Вся его жизнь прошла под прицелом невидимых
+камер и под присмотром режиссёра шоу Кристофа. 2
+Пока большая часть земного шара с замиранием сердца следит за взрослением,
+браком и каждодневной рутиной Трумана, герой поневоле грезит о путешествиях.
+По разным срежиссированным причинам он никак не может покинуть Сихэвен
+и в конце концов начинает параноидально сомневаться в подлинности своего мирка.
+Несколько технических ошибок и помощь доброжелательницы помогают
+Труману совершить отчаянный побег — к краю света.</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>271</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zal2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>310</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать места</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zal3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>380</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать места</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>230</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>310</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>13.55 - 15.55                                2 зал</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>841</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16.15 - 18.15                                3 зал </string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>230</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>11.15 - 12.15                                1 зал</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>230</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zal1">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>240</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать места</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>881</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

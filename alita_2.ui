@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>271</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>250</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10.00 - 11.00                                 1 зал</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>11.40 - 13.40                                  2 зал</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>14.00 - 16.00                                  3 зал </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zal1">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>250</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать места</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zal2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать места</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zal3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>390</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать места</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>20</y>
+      <width>521</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Фильм &quot;Алита: Боевой ангел&quot; - это американский боевик с элементами киберпанка,
+который был выпущен в 2019 году.
+Фильм рассказывает историю девушки-киборга
+по имени Алита, которая пытается раскрыть тайну своего происхождения.
+Она обладает невероятными боевыми навыками и вступает в схватку с опасными
+противниками в мире, где технологии и человеческая плоть переплетаются.</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>450</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>841</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>240</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>240</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>240</y>
+      <width>21</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>841</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>893</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

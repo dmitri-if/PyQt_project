@@ -45,6 +45,7 @@ class Home(QMainWindow):
         self.mask.clicked.connect(self.maskbtn)
         self.avatarbtn.clicked.connect(self.avatarbutton)
         self.setFixedSize(1185, 906)
+        self.setGeometry(150, 30, 1185, 906)
         self.initUI()
 
     def initUI(self):

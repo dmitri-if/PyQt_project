@@ -51,6 +51,7 @@ class Home(QMainWindow):
 
     def initUI(self):
         self.setWindowTitle('Home')
+        self.setGeometry(150, 30, 1185, 906)
 
         ## Изображение
         self.pixmap = QPixmap('images/alita.webp')

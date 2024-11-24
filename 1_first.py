@@ -6,6 +6,7 @@ from PyQt6.QtWidgets import QMainWindow
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import pyqtSignal
 
+
 lst_alita_1 = []
 lst_alita_3 = []
 lst_alita_2 = []
@@ -32,6 +33,7 @@ avatar_2 = []
 avatar_3 = []
 f = 0
 
+
 class Home(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -50,6 +52,7 @@ class Home(QMainWindow):
 
     def initUI(self):
         self.setWindowTitle('Home')
+        self.setGeometry(150, 30, 1185, 906)
 
         ## Изображение
         self.pixmap = QPixmap('images/alita.webp')
